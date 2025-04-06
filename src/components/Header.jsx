@@ -22,7 +22,7 @@ const Header = () => {
                     <a href="#projects" className="hover:text-blue-400">Projects</a>
                     <a href="#contacts" className="hover:text-blue-400">Contacts</a>
                     <a
-                        href="https://lakshay1838.github.io/Portfolio/Resume_Lakshay_El_Feb.pdf"
+                        href="/Resume_Lakshay_El_Feb.pdf"
                         target='_blank'
                         download
                         className="bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700 transition shadow"
