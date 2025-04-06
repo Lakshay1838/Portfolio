@@ -1,5 +1,5 @@
 {
-  "homepage": "https://lakshay1838.github.io/portfolio",
+  "homepage": "https://Lakshay1838.github.io/Portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
+
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.3",
