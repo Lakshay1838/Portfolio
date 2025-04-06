@@ -4,7 +4,7 @@ import { SiLeetcode, SiGeeksforgeeks } from 'react-icons/si';
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-slate-100 py-16 text-center">
+    <section id="contacts" className="bg-slate-100 py-16 text-center">
       <h2 className="text-3xl font-bold underline mb-8">Contact Me</h2>
 
       <p className="text-lg mb-6">
