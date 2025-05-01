@@ -24,7 +24,6 @@ const Header = () => {
                     <a
                         href="https://drive.google.com/file/d/1TfUsAsEoxlp_G2Q4si2CA1c0mcNHJ1dy/view"
                         target='_blank'
-                        download
                         className="bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700 transition shadow"
                     >
                         Download Resume
