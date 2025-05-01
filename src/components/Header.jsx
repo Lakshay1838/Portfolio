@@ -45,7 +45,7 @@ const Header = () => {
                     <a href="#projects" className="hover:text-blue-400" onClick={toggleMenu}>Projects</a>
                     <a href="#contacts" className="hover:text-blue-400" onClick={toggleMenu}>Contacts</a>
                     <a
-                        href="/Resume_Lakshay_El_Feb.pdf"
+                        href="https://drive.google.com/file/d/1TfUsAsEoxlp_G2Q4si2CA1c0mcNHJ1dy/view"
                         download
                         className="bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700 transition shadow text-center"
                         onClick={toggleMenu}
