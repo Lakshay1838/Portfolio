@@ -22,7 +22,7 @@ const Header = () => {
                     <a href="#projects" className="hover:text-blue-400">Projects</a>
                     <a href="#contacts" className="hover:text-blue-400">Contacts</a>
                     <a
-                        href="https://drive.google.com/file/d/18MnRu0ugbwtf70olRyymt8WFL3VLrpnG/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1Rhl48Pwr7uufLqS3UoLS3r4glN73vOLO/view?usp=sharing"
                         target='_blank'
                         className="bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700 transition shadow"
                     >
@@ -45,7 +45,7 @@ const Header = () => {
                     <a href="#projects" className="hover:text-blue-400" onClick={toggleMenu}>Projects</a>
                     <a href="#contacts" className="hover:text-blue-400" onClick={toggleMenu}>Contacts</a>
                     <a
-                        href="https://drive.google.com/file/d/18MnRu0ugbwtf70olRyymt8WFL3VLrpnG/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1Rhl48Pwr7uufLqS3UoLS3r4glN73vOLO/view?usp=sharing"
                         download
                         className="bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700 transition shadow text-center"
                         onClick={toggleMenu}

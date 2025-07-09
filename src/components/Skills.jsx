@@ -2,9 +2,9 @@ import React from 'react';
 
 const skills = {
   "Frontend": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
-  "Backend": ["Node.js", "Express.js"],
-  "Database": ["MongoDB"],
-  "Other Tools": ["Git", "GitHub", "Postman", "VS Code"]
+  "Backend": ["Node.js", "Express.js","Spring Boot","Spring Security"],
+  "Database": ["MongoDB","MySQL"],
+  "Other Tools": ["Git", "GitHub", "Postman", "VS Code","IntelliJ"]
 };
 
 const Skills = () => {

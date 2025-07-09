@@ -2,19 +2,33 @@ import React from 'react';
 
 const projects = [
   {
+    title: "Milestone Tracker",
+    description: "Milestone Tracker is a web app to help users set and track milestones and daily logs.Built with Spring Boot (using Dependency Injection), MongoDB, and React.js for a full-stack solution",
+    techStack: ["Spring Boot", "Spring Security","MongoDB"],
+    live: "#",
+    github: "https://github.com/Lakshay1838/Milestone-Tracker"
+  },
+  {
+    title: "User Notes APP",
+    description: "UserNotes App, a powerful and secure backend application that allows users to register, authenticate, and seamlessly create, manage, and retrieve personal notes.",
+    techStack: ["Spring Boot", "Spring Security","MongoDB"],
+    live: "#", 
+    github: "https://github.com/Lakshay1838/User-Notes-APP.git"
+  },
+  {
     title: "FixMate",
     description: "A platform that connects customers with local electricians, plumbers, and carpenters.",
     techStack: ["React", "Node.js", "MongoDB", "Express"],
-    live: "#", // Replace with actual link if available
+    live: "#", 
     github: "https://github.com/Lakshay1838/Fix-Me.git"
   },
-  {
-    title: "Easy To Learn",
-    description: "An educational site designed for students to access class-wise study materials easily.",
-    techStack: ["React", "Tailwind CSS"],
-    live: "https://lakshay1838.github.io/Easy-to-Learn/", // Replace with actual link if available
-    github: "https://github.com/Lakshay1838/Easy-to-Learn.git"
-  },
+  // {
+  //   title: "Easy To Learn",
+  //   description: "An educational site designed for students to access class-wise study materials easily.",
+  //   techStack: ["React", "Tailwind CSS"],
+  //   live: "https://lakshay1838.github.io/Easy-to-Learn/", // Replace with actual link if available
+  //   github: "https://github.com/Lakshay1838/Easy-to-Learn.git"
+  // },
 //   {
 //     title: "Portfolio Website",
 //     description: "My personal portfolio website built with React and Tailwind CSS.",
