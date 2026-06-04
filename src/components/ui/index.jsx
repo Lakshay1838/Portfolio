@@ -7,7 +7,7 @@ export const Button = ({
   className = '',
   ...props 
 }) => {
-  const baseStyles = 'font-medium rounded-lg transition duration-200 flex items-center justify-center gap-2';
+  const baseStyles = 'font-medium rounded-lg transition duration-200 flex items-center justify-center gap-2 btn-base btn-hover';
   
   const variants = {
     primary: 'bg-teal-500 text-white hover:bg-teal-600 active:bg-teal-700',
@@ -35,8 +35,8 @@ export const Button = ({
 export const Card = ({ children, className = '', hover = true, ...props }) => {
   return (
     <div 
-      className={`bg-white dark:bg-slate-800 rounded-lg p-6 shadow-md dark:shadow-lg ${
-        hover ? 'hover:shadow-lg dark:hover:shadow-xl transition-shadow duration-200' : ''
+      className={`bg-white dark:bg-slate-800 rounded-lg p-6 shadow-md dark:shadow-lg card-reveal ${
+        hover ? 'hover:shadow-lg dark:hover:shadow-xl transition-shadow duration-300' : ''
       } border border-slate-200 dark:border-slate-700 ${className}`}
       {...props}
     >
@@ -48,7 +48,7 @@ export const Card = ({ children, className = '', hover = true, ...props }) => {
 export const Section = ({ children, className = '', ...props }) => {
   return (
     <section 
-      className={`py-16 px-6 md:px-12 lg:px-20 ${className}`}
+      className={`py-16 px-6 md:px-12 lg:px-20 transition-all duration-500 ${className}`}
       {...props}
     >
       <div className="max-w-6xl mx-auto">
@@ -61,11 +61,11 @@ export const Section = ({ children, className = '', ...props }) => {
 export const SectionHeading = ({ children, subtitle = '', className = '' }) => {
   return (
     <div className={`mb-12 text-center ${className}`}>
-      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 inline-block border-b-4 border-teal-500 pb-2">
+      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 inline-block border-b-4 border-teal-500 pb-2 animate-fade-in-up">
         {children}
       </h2>
       {subtitle && (
-        <p className="text-lg text-gray-600 dark:text-gray-300 mt-4 max-w-2xl mx-auto">
+        <p className="text-lg text-gray-600 dark:text-gray-300 mt-4 max-w-2xl mx-auto animate-fade-in-up animate-stagger-1">
           {subtitle}
         </p>
       )}
@@ -98,7 +98,7 @@ export const Badge = ({ children, variant = 'primary', size = 'md', className = 
 
 export const Tag = ({ children, className = '' }) => {
   return (
-    <span className={`inline-block bg-slate-100 dark:bg-slate-700 text-gray-700 dark:text-gray-200 px-3 py-1 rounded-full text-sm font-medium ${className}`}>
+    <span className={`inline-block bg-slate-100 dark:bg-slate-700 text-gray-700 dark:text-gray-200 px-3 py-1 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105 ${className}`}>
       {children}
     </span>
   );
