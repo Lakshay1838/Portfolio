@@ -1,27 +1,28 @@
-import Header from './components/Header';
 import React from 'react';
-import Hero from './components/Hero';
-import Skills from './components/Skills';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Certifications from './components/Certifications';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import Blog from './pages/Blog';
+import Contact from './pages/Contact';
 
 function App() {
-
   return (
-    <div>
-      <Header/>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Certifications/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <Router basename="/Portfolio/">
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </Layout>
+    </Router>
   );
-};
+}
 
 export default App;
