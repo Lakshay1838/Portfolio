@@ -1,24 +1,160 @@
-# Logs
-logs
+# ============================================
+# DEPENDENCIES & BUILD OUTPUTS
+# ============================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+dist/
+dist-ssr/
+build/
+
+# ============================================
+# ENVIRONMENT VARIABLES
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# ============================================
+# IDE & EDITOR FILES
+# ============================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.sublime-project
+.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.vim/
+.history/
+.LSP/
+.emacs
+.DS_Store
+*.iml
+*.iws
+*.ipr
+
+# ============================================
+# OS SPECIFIC FILES
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+.directory
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.apdisk
+
+# ============================================
+# LOGS & DEBUG FILES
+# ============================================
+logs/
 *.log
 npm-debug.log*
+npm-error.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+firebase-debug.log
+debug.log
 
-node_modules
-dist
-dist-ssr
+# ============================================
+# RUNTIME & TEMP FILES
+# ============================================
 *.local
+*.pid
+*.seed
+*.pid.lock
+tmp/
+temp/
+*.tmp
+*.backup
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# ============================================
+# VITE & BUILD TOOLS
+# ============================================
+.vite/
+vite.config.*.sw[op]
+
+# ============================================
+# CACHE FILES
+# ============================================
+.cache/
+.parcel-cache/
+.eslintcache
+.prettier-ignore
+.browserslistrc
+.eslintignore
+
+# ============================================
+# TESTING & COVERAGE
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+.mocharc.json
+
+# ============================================
+# BUNDLE ANALYSIS
+# ============================================
+build/reports/
+
+# ============================================
+# DEPLOYMENT & HOSTING
+# ============================================
+.netlify/
+firebase-config.json
+.firebase/
+.firebaserc
+gh-pages/
+
+# ============================================
+# PROJECT SPECIFIC
+# ============================================
+DUMMY_LINKS_LOG.txt.backup
+*.local.json
+config.local.js
+.credentials/
+secrets/
+private/
+
+# ============================================
+# PYTHON (if used)
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# MISC
+# ============================================
+.tern-port
+.generated/
+generated/
+Thumbs.db.lnk
+.xsession-errors*
+.parcel-cache
+.cache-loader
+.storybook_build/
