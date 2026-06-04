@@ -1,0 +1,77 @@
+DUMMY LINKS TRACKER
+Created: 2026-06-04
+Purpose: Track temporary placeholder links and replace after real deployment.
+
+================================================================================
+
+1) Milestone Tracker
+Current dummy live link: https://example.com/projects/milestone-tracker
+Future real live link: PENDING
+GitHub: https://github.com/Lakshay1838/Milestone-Tracker
+Status: In Progress
+Notes: Replace after deployment on Vercel/Netlify/Firebase Hosting
+File location: src/components/Projects.jsx (line 5)
+
+2) User Notes APP
+Current dummy live link: https://example.com/projects/user-notes-app
+Future real live link: PENDING
+GitHub: https://github.com/Lakshay1838/User-Notes-APP.git
+Status: In Progress
+Notes: Backend + Frontend deployment needed
+File location: src/components/Projects.jsx (line 12)
+
+3) FixMate
+Current dummy live link: https://example.com/projects/fixmate
+Future real live link: PENDING
+GitHub: https://github.com/Lakshay1838/Fix-Me.git
+Status: In Progress
+Notes: Replace after deployment
+File location: src/components/Projects.jsx (line 19)
+
+4) Travel Agency Booking Platform (New - To Be Added)
+Current dummy live link: PENDING (add when ready)
+Future real live link: PENDING
+GitHub: https://github.com/Lakshay1838/Travel-Agency (example path)
+Status: In Development
+Notes: Add to Projects.jsx after first deployment
+File location: src/components/Projects.jsx (new entry)
+
+================================================================================
+
+UPDATE RULES:
+1. When a project goes live, replace the dummy URL with the real one
+2. Update status from "In Progress" to "Live"
+3. Add deployment date in notes section
+4. Keep the GitHub link unchanged
+5. Create a git commit with message: "feat(projects): update [ProjectName] live link to [URL]"
+
+UPDATE HISTORY:
+- 2026-06-04: Initial dummy links added for all projects
+  Commit: chore(projects): add temporary live demo placeholder links
+  
+- 2026-06-04: Created this tracker file
+  Commit: docs: add dummy links tracker for future live URL updates
+
+================================================================================
+
+DEPLOYMENT CHECKLIST FOR EACH PROJECT:
+Before replacing dummy link, ensure:
+[ ] Project is fully functional and tested
+[ ] Environment variables are set correctly
+[ ] Database connections are verified
+[ ] GitHub link is public and has README
+[ ] Test cases pass
+[ ] Lighthouse score is good (>80)
+[ ] No console errors in browser DevTools
+[ ] Mobile responsiveness verified
+[ ] Security scan passed
+[ ] Code is documented
+
+================================================================================
+
+FUTURE ENHANCEMENTS:
+- Add project demo video links when available
+- Add screenshots/preview images for each project
+- Add performance metrics (Lighthouse, response time, bundle size)
+- Add live status indicator on portfolio homepage
+- Add automated link checker in CI/CD pipeline
