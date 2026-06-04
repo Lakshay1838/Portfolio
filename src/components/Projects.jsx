@@ -5,21 +5,21 @@ const projects = [
     title: "Milestone Tracker",
     description: "Milestone Tracker is a web app to help users set and track milestones and daily logs.Built with Spring Boot (using Dependency Injection), MongoDB, and React.js for a full-stack solution",
     techStack: ["Spring Boot", "Spring Security","MongoDB"],
-    live: "#",
+    live: "https://example.com/projects/milestone-tracker",
     github: "https://github.com/Lakshay1838/Milestone-Tracker"
   },
   {
     title: "User Notes APP",
     description: "UserNotes App, a powerful and secure backend application that allows users to register, authenticate, and seamlessly create, manage, and retrieve personal notes.",
     techStack: ["Spring Boot", "Spring Security","MongoDB"],
-    live: "#", 
+    live: "https://example.com/projects/user-notes-app", 
     github: "https://github.com/Lakshay1838/User-Notes-APP.git"
   },
   {
     title: "FixMate",
     description: "A platform that connects customers with local electricians, plumbers, and carpenters.",
     techStack: ["React", "Node.js", "MongoDB", "Express"],
-    live: "#", 
+    live: "https://example.com/projects/fixmate", 
     github: "https://github.com/Lakshay1838/Fix-Me.git"
   },
   // {
@@ -54,6 +54,7 @@ const Projects = () => {
                 <a
                   href={project.live}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
                 >
                   Live Demo
@@ -61,6 +62,7 @@ const Projects = () => {
                 <a
                   href={project.github}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-600 hover:underline"
                 >
                   GitHub
